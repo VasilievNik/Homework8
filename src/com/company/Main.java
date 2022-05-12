@@ -46,7 +46,7 @@ public class Main {
         }
     }
 
-    public static void CardDelivery(int deliveryDistance) { //----------------------------Доставка карты
+    public static void CardDelivery(int deliveryDistance) { //-------------------------Доставка карты
         if (deliveryDistance-20 <= 0)
             System.out.println("Потребуется дней: 1");
         else
@@ -58,5 +58,4 @@ public class Main {
                 System.out.format("Потребуется дней: %d\n", result+1);
         }
     }
-
 }
