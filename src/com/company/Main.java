@@ -58,5 +58,4 @@ public class Main {
                 System.out.format("Потребуется дней: %d\n", result+1);
         }
     }
-
 }
